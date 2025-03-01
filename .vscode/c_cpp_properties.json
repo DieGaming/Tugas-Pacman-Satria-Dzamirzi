@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "windowsSdkVersion": "10.0.18362.0",
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "${workspaceFolder}\\mingw32\\bin\\gcc.exe"
+        },
+        {
+            "name": "-lfreeglut -lopengl32 -lglu32 -lwinmm -lgdi32 -Wl,--subsystem,windows -o ",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        },
+        {
+            "name": "Titut",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}
